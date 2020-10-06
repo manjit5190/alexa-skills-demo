@@ -6,7 +6,7 @@ It is **work in progress** at the moment.
 
 ### Current snippets (2): 
 
-###### How to call a external service
+#### How to call a external service
 
 Most of the times you will need to call an external service to handle the request. The below code snippet show how can you call an external service. 
 
@@ -89,7 +89,7 @@ const CompleteBookAppointmentIntent = {
     }
 };
 ```
-###### How to play a message while waiting for the response. 
+#### How to play a message while waiting for the response. 
 It take some time for service to respond and the default behaviour of Alexa is to just wait silently for 8 seconds. You can notify user that the request is processing. 
 
 ```
